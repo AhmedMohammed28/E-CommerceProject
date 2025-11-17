@@ -118,7 +118,7 @@ export class CheckoutComponent implements OnInit, OnDestroy {
     const url =
       this.paymentMethod === 'cash'
         ? `https://ecommerce.routemisr.com/api/v1/orders/${this.cartData._id}`
-        : `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${this.cartData._id}?url=https://mohamedsayed24.github.io/E-CommerceProject/blank`;
+        : `https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${this.cartData._id}?url=https://ahmedmohammed28.github.io/E-CommerceProject/blank`;
 
     const orderData = {
       shippingAddress: {
